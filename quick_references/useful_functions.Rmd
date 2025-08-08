@@ -1,0 +1,17 @@
+---
+title: "Quick References - Useful Functions R"
+author: "Femke"
+output: html_document
+---
+
+# Useful Functions
+Some generalised useful functions in R
+
+##HTML output
+```{r eval=FALSE}
+eval=FALSE #prints the literal text, does not produce a result.
+echo=FALSE #prints the result only.
+```
+---
+*Last updated: 'r Sys.Date()'*
+**Tags for searching:** #cheatsheet #functions #quick_reference
