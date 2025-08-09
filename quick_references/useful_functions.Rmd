@@ -7,7 +7,14 @@ output: html_document
 # Useful Functions
 Some generalised useful functions in R
 
-##HTML output
+## HTML output
+**R-chunks arguments** 
+```{r, eval=FALSE}
+eval=FALSE
+```
+Prints the literal text, does not produce a computation
+
+
 ```{r eval=FALSE}
 eval=FALSE #prints the literal text, does not produce a result.
 echo=FALSE #prints the result only.
