@@ -12,17 +12,20 @@ Some generalised useful functions in R
 
 ## HTML output design
 **R-chunks arguments** 
-```{r, eval=FALSE}
+
+``` r
 eval=FALSE
 ```
 Prints the literal code, does not produce a computation
 
-```{r, eval=FALSE}
+
+``` r
 echo=FALSE
 ```
 Prints the computation only, not the literal code
 
-```{r, eval=FALSE}
+
+``` r
 include=FALSE
 ```
 prevents code and results (a chunk) from appearing in the finished file.
@@ -34,7 +37,8 @@ the function `echo=F`prints the computation only
 ## Statements
 
 **If...else**
-```{r, eval=FALSE}
+
+``` r
 if (TRUE) { 
   message <- "I execute this when true!"
 } else {
@@ -54,7 +58,6 @@ if (weather == 'cloudy' & high_chance_of_rain){
 }
 
 print(message)
-
 ```
 Here, whichever argument is within the brackets, will determine which one of the actions in the {} will be executed.
 
@@ -68,6 +71,6 @@ For within the brackets, you can use "&" as AND operator, "|" as OR operator and
 
 
 
-*Last updated: `r format(Sys.Date(), "%d-%m-%Y")`*
+*Last updated: 31-08-2025*
 
 **Tags for searching:** #cheatsheet #functions #quick_reference
